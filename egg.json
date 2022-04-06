@@ -8,7 +8,7 @@
     "tag": "",
     "author": "admin@wardenhostmc.tk",
     "description": "A Fyreactyl Egg, maintained by MD211211#9261 (unofficial)",
-    "image": "ghcr.io/software-noob/pterodactyl-images:nodejs_14",
+    "image": "quay.io\/jamiegrimwood\/dashactyl-egg:latest",
     "startup": ".\/entrypoint.sh",
     "config": {
         "files": "{}",
