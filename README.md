@@ -18,6 +18,6 @@ THIS IS BASED OF DASHACTYL EGG (but for fyreactyl)
 
 5: Config settings.yml
 
-6: Make an nginx config on your node for it (guide for that coming tomorrow)
+6: Make an nginx config on your node for it (https://pastebin.com/4GvEG6rH replace [DOMAIN YOU WANT TO USE and [PTERODACTYL CONTAINER DOMAIN](include port with this) with the corrisponding domains )
 
 7: Visit the site you configed on your nginx config, Done!
