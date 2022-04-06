@@ -7,8 +7,8 @@
     "name": "Dashactyl-Egg",
     "tag": "",
     "author": "jamie@colournodes.com",
-    "description": "A Dashactyl Egg, maintained by Jamie_#0001",
-    "image": "quay.io\/jamiegrimwood\/dashactyl-egg:latest",
+    "description": "A Fyreactyl Egg, maintained by MD211211#9261 (unofficial)",
+    "image": "ghcr.io/software-noob/pterodactyl-images:nodejs_14",
     "startup": ".\/entrypoint.sh",
     "config": {
         "files": "{}",
