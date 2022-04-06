@@ -20,4 +20,8 @@ THIS IS BASED OF DASHACTYL EGG (but for fyreactyl)
 
 6: Make an nginx config on your node for it (https://pastebin.com/4GvEG6rH replace [DOMAIN YOU WANT TO USE and [PTERODACTYL CONTAINER DOMAIN](include port with this) with the corrisponding domains )
 
-7: Visit the site you configed on your nginx config, Done!
+7: Delete Entrypoint.sh 
+
+8: Change the startup command to ./index.js
+
+9: Visit the site you configed on your nginx config, Done!
