@@ -12,14 +12,14 @@ else
     "Y")
         echo "Installing Dashactyl...";
 
-        git clone https://github.com/Votion-Development/Dashactyl.git /home/container/Dashactyl
-        mv /home/container/Dashactyl/** /home/container
-        rm -rf /home/container/Dashactyl
-        mv /home/container/settings-template.yml /home/container/settings.yml
+        git clone https://github.com/FyreHub/Fyreactyl.git /home/container/fyreactyl
+        mv /home/container/fyreactyl/** /home/container
+        rm -rf /home/container/fyreactyl
+        mv /home/container/settings-example.yml /home/container/settings.yml
 
         yarn install
 
-        echo "Dashactyl is now installed. Please open settings.yml and follow the guide to fill out the details: https://docs.votion.dev/docs/Dashactyl/configuration";
+        echo "Fyreactyl is now installed. Please open settings.yml and follow the guide to fill out the details: https://docs.votion.dev/docs/Dashactyl/configuration";
         exit 0;
         ;;
     "N")
