@@ -22,6 +22,6 @@ THIS IS BASED OF DASHACTYL EGG (but for fyreactyl)
 
 7: Delete Entrypoint.sh 
 
-8: Change the startup command to ./index.js
+8: Change the startup command to "node index.js"
 
 9: Visit the site you configed on your nginx config, Done!
