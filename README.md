@@ -1,7 +1,7 @@
 [![Docker Repository on Quay](https://quay.io/repository/jamiegrimwood/dashactyl-egg/status "Docker Repository on Quay")](https://quay.io/repository/jamiegrimwood/dashactyl-egg)
 
 # Fyreactyl-Egg
-The egg used to run Dashactyl on Pterodactyl Panel
+The egg used to run Fyreactyl on Pterodactyl Panel
 
 # Contribution
 MD211211#9261
