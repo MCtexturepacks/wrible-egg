@@ -14,13 +14,13 @@ THIS IS BASED OF DASHACTYL EGG (but for fyreactyl)
 
 3: Then upload entrypoint.sh to file manager, set the permission to 777
 
-4: Start the server!
+4: Start the server! wait for install
 
 5: Config settings.yml
 
 6: Make an nginx config on your node for it (https://pastebin.com/4GvEG6rH replace [DOMAIN YOU WANT TO USE and [PTERODACTYL CONTAINER DOMAIN](include port with this) with the corrisponding domains )
 
-7: Delete Entrypoint.sh 
+7: Delete Entrypoint.sh (this should have self-destructed earlier but if it didnt, do this step)
 
 8: Change the startup command to "node index.js"
 
