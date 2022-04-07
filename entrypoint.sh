@@ -20,6 +20,7 @@ else
         yarn install
 
         echo "Fyreactyl is now installed. Please open settings.yml and follow the guide to fill out the details: https://docs.votion.dev/docs/Dashactyl/configuration";
+        rm /home/container/entrypoint.sh
         exit 0;
         ;;
     "N")
