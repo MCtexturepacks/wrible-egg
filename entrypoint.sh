@@ -12,12 +12,12 @@ else
     "Y")
         echo "Installing Dashactyl...";
 
-        git clone https://github.com/FyreHub/Fyreactyl.git /home/container/dashboardsy
+        git clone https://github.com/Wrible-Development/Dashboardsy.git /home/container/dashboardsy
+        mv /home/container/dashboardsy/** /home/container
+        rm -rf /home/container/dashboardsy
         npm install
         npm install -g pm2
         npm run build
-        mv /home/container/dashboardsy/** /home/container
-        rm -rf /home/container/dashboardsy
 
         yarn install
 
