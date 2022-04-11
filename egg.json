@@ -7,7 +7,7 @@
     "name": "fyreactyl-Egg",
     "tag": "",
     "author": "admin@wardenhostmc.tk",
-    "description": "A Fyreactyl Egg, maintained by MD211211#9261 (unofficial)",
+    "description": "A dashboardsy Egg, maintained by MD211211#9261 (unofficial)",
     "image": "ghcr.io/software-noob/pterodactyl-images:nodejs_16",
     "startup": ".\/entrypoint.sh",
     "config": {
