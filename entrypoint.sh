@@ -12,10 +12,9 @@ else
     "Y")
         echo "Installing Dashactyl...";
 
-        git clone https://github.com/FyreHub/Fyreactyl.git /home/container/fyreactyl
-        mv /home/container/fyreactyl/** /home/container
-        rm -rf /home/container/fyreactyl
-        mv /home/container/settings-example.yml /home/container/settings.yml
+        git clone https://github.com/FyreHub/Fyreactyl.git /home/container/dashboardsy
+        mv /home/container/dashboardsy/** /home/container
+        rm -rf /home/container/dashboardsy
 
         yarn install
 
