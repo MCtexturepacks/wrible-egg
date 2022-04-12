@@ -2,8 +2,8 @@
 
 cd /home/container || exit 1;
 
-if [[ -f "/home/container/theme.js" ]]; then
-  pm2 start --name=dashboardsy npm -- start
+if [[ -f "/home/container/index.php the
+  node index.php
 else
   echo "dahsboarsdsy not found. Proceed to install Dashactyl? (Y/N)";
   read proceed;
@@ -12,12 +12,9 @@ else
     "Y")
         echo "Installing Dashactyl...";
 
-        git clone https://github.com/Wrible-Development/Dashboardsy.git /home/container/dashboardsy
-        mv /home/container/dashboardsy/** /home/container
-        rm -rf /home/container/dashboardsy
-        npm install
-        npm install -g pm2
-        npm run build
+        git clone https://github.com/ShadowsDash/ShadowsDash.git /home/container/shadows
+        mv /home/container/shadows/** /home/container
+        rm -rf /home/container/shadows
 
         yarn install
 
